@@ -1,6 +1,17 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
+.codeArea{
+  border:solid 1px blue;
+  overflow: hidden;
+}
+.iframResult{
+  width:90%;
+  height:300px;
+  border:solid 1px red;
+  margin:10px;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,3 +41,4 @@
     transform: rotate(360deg);
   }
 }
+
